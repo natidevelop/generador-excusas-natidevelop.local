@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(24, 167, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#excuse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(71, 55, 176);
+  color: rgb(110, 223, 235);
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease-out, color 0.9s ease-out;
+}
+#excuse:hover {
+  background-color: rgb(66, 38, 203);
+  color: rgb(29, 2, 17);
+  transition: background-color 0.3s ease-out, color 0.9s ease-out;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
