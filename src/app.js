@@ -7,12 +7,8 @@ window.onload = function() {
   let action = ["comio", "volo", "rompio", "corrio"];
   let what = ["mis deberes", "mi silla", "mi comida", "mis plantas"];
   let when = ["en la mañana", "en la tarde", "en mi almuerzo", "mientras leia"];
-  function datoAletorio() {
-    const numeroAletorio = Math.floor(Math.random() * 4);
-    return numeroAletorio;
-  }
-
-  // console.log(concatenando);
+  // modifique la funcion  por una arrowfunction .
+  const datoAletorio = _numeroAletorio => Math.floor(Math.random() * 4);
 
   const button = document.getElementById("excuse");
   console.log(button);
